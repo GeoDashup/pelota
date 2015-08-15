@@ -15,8 +15,8 @@ local physics = require "physics"
 --Activamos pelota
 physics.start( )
 
-local sky = display.newImage("Clouds.png", centerX, 195 )
-local ground = display.newImage("ground.jpg", centerX, 400 )
+local sky = display.newImage("Clouds.png", centerX, 300 )
+local ground = display.newImage("ground.jpg", centerX, 600 )
 
 --Activamos suelo para el rebote
 physics.addBody (ground, "static", {friction=0.49 ,bounce=0.56 } )
