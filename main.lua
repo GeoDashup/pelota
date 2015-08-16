@@ -28,7 +28,7 @@ physics.addBody (ground, "static", {friction=0.49 ,bounce=0.56 } )
 --Creación de la pelota
 
 
-for i=1, 50 do
+for i=1, 5 do
 
 local pelota = display.newCircle( 130, -70, 20 )
 local crate = display.newImage("crate.jpg", centerX, 200)
